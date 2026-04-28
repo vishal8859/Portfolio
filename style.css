@@ -193,3 +193,14 @@ html {
   color: gray;
   margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero img {
+    width: 80%;
+  }
+}
